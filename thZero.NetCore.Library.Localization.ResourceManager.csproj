@@ -1,14 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-		<RootNamespace>thZero.Localization.ResourceManager</RootNamespace>
-		<Authors>thZero.com</Authors>
-		<Company>thZero.com</Company>
-		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
-		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</RepositoryUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>thZero.NetCore.Library.ResourceManager</AssemblyName>
+    <PackageId>thZero.NetCore.Library.ResourceManager</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <Description></Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</PackageProjectUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</RepositoryUrl>
+    <Authors>thZero.com</Authors>
+    <RootNamespace>thZero.Localization</RootNamespace>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Include="..\thZero.NetCore.Library\CommonAssemblyInfo.cs" Link="CommonAssemblyInfo.cs" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
