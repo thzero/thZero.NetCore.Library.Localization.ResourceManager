@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>thZero.NetCore.Library.ResourceManager</AssemblyName>
-    <PackageId>thZero.NetCore.Library.ResourceManager</PackageId>
+    <AssemblyName>thZero.NetCore.Library.Services.Localization.ResourceManager</AssemblyName>
+    <PackageId>thZero.NetCore.Library.Services.Localization.ResourceManager</PackageId>
     <Description></Description>
     <Authors>thZero.com</Authors>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -13,9 +13,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Localization.ResourceManager</PackageProjectUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Localization.ResourceManager</RepositoryUrl>
+    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Localization.ResourceManager</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
