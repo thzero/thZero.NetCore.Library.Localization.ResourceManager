@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>thZero.NetCore.Library.Services.Localization.ResourceManager</AssemblyName>
     <PackageId>thZero.NetCore.Library.Services.Localization.ResourceManager</PackageId>
     <Description></Description>
@@ -23,9 +23,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
-		<PackageReference Include="Microsoft.Extensions.Localization" Version="2.1.1" />
-		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="2.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+		<PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.6" />
+		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="5.0.6" />
 	</ItemGroup>
 
 	<ItemGroup>
